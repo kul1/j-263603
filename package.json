@@ -6,12 +6,17 @@
     "@rails/webpacker": "5.1.1",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "channels": "^0.0.4",
+    "css-loader": "^3.6.0",
     "expose-loader": "^0.7.5",
+    "favicons-webpack-plugin": "^3.0.1",
+    "html-webpack-plugin": "^4.3.0",
     "jquery": "^3.5.1",
     "prop-types": "^15.7.2",
     "rails-ujs": "^5.2.4-3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "save-dev": "^0.0.1-security",
+    "style-loader": "^1.2.1",
     "turbolinks": "^5.2.0"
   },
   "devDependencies": {
