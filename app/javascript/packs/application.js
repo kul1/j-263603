@@ -12,9 +12,9 @@
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
 // or the `imagePath` JavaScript helper below.
 //
-const images = require.context('../images', true)
-require.context('../stylesheets', true);
-// const imagePath = (name) => images(name, true)
+const images = require.context('../application/images', true)
+require.context('../application/stylesheets', true);
+const imagePath = (name) => images(name, true)
 
 console.log('Hello World from Webpacker')
 require("@rails/ujs").start()
@@ -32,4 +32,4 @@ import HelloWorld from '../components/hello'
    )
  })
 let odds = [0,2,4,6,8].map(v => v + 1);
-
+I
